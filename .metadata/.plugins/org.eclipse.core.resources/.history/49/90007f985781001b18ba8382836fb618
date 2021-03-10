@@ -1,21 +1,20 @@
 
 public class School {
 	public static void main(String[] args) {
-		int a=1;
-		//Teacher teacher= new Teacher("Smith");
-		System.out.println(a==1 ? "K" : "L");
+		Teacher teacher= new Teacher("Smith");
+		
 	}
 	
 	void loopDiscussion() {
 		//do_while_start
 		int i=0;
 			do {
-				//Teacher teacher=new Teacher("Mary"+i);
+				Teacher teacher=new Teacher("Mary"+i);
 				i++;
 			}while (i<10);
 		//do_while_end
 		for(i=0;i<10;i++) {
-				//Teacher teacher= new Teacher("Smith"+i);
+				Teacher teacher= new Teacher("Smith"+i);
 		}
 	}
 	

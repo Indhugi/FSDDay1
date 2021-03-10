@@ -1,9 +1,8 @@
 
 public class School {
 	public static void main(String[] args) {
-		int a=1;
-		//Teacher teacher= new Teacher("Smith");
-		System.out.println(a==1 ? "K" : "L");
+		Teacher teacher= new Teacher("Smith");
+		
 	}
 	
 	void loopDiscussion() {
