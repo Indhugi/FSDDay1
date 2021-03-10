@@ -1,9 +1,9 @@
 
-public class Teacher extends Human {
+public class Teacher extends Human{
 	private String subject;
 	private float salary;
 	
-	public Teacher(String name) {
+	public Teacher (String name) {
 		setName(name);
 	}
 	public String getSubject() {

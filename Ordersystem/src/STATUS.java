@@ -1,0 +1,4 @@
+
+enum STATUS {
+	Pending,Completed
+}
