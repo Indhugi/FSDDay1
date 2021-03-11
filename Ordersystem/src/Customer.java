@@ -1,24 +1,30 @@
 
 public class Customer {
-	private String name;
-	private int custID;
+	private String customerName;
+	private int customerID;
 
-	public int getCustID() {
-		return custID;
+	public Customer(String customerName, int customerID) {
+		this.customerName = customerName;
+		this.customerID = customerID;
 	}
 
-	public void setCustID(int custID) {
-		this.custID = custID;
+	public String getCustomerName() {
+		return customerName;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		if (name == null | name.trim().equals("")) {
+	public void setCustomerName(String customerName) {
+		if (customerName == null | customerName.trim().equals("")) {
 			throw new IllegalArgumentException("Name is Mandatory");
 		}
-		this.name = name;
+		this.customerName = customerName;
 	}
+
+	public int getCustomerID() {
+		return customerID;
+	}
+
+	public void setCustomerID(int customerID) {
+		this.customerID = customerID;
+	}
+	
 }

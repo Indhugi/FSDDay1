@@ -1,12 +1,8 @@
 
-public class DataWarehouse extends Order {
+public class DataWarehouse{
 	//Order completedorder=new Order(orderID);
-	public DataWarehouse(int orderID) {
-		super(orderID);
-
-	}
-
-	void customerorderdetail(){
+	
+	void itemDetail(){
 		System.out.println();
 		}
 

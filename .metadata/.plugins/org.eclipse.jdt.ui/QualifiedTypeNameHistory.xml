@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
 <fullyQualifiedTypeName name="com.A"/>
+<fullyQualifiedTypeName name="Student1"/>
+<fullyQualifiedTypeName name="Customer"/>
 </qualifiedTypeNameHistroy>
