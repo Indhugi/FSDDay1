@@ -4,4 +4,12 @@
 <fullyQualifiedTypeName name="com.A"/>
 <fullyQualifiedTypeName name="Student1"/>
 <fullyQualifiedTypeName name="Customer"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="SavingsAccount"/>
+<fullyQualifiedTypeName name="FDAccount"/>
+<fullyQualifiedTypeName name="IAccount"/>
+<fullyQualifiedTypeName name="RDAccount"/>
+<fullyQualifiedTypeName name="CollegeStudent"/>
+<fullyQualifiedTypeName name="StudentAbstract"/>
+<fullyQualifiedTypeName name="HighSchoolStudent"/>
 </qualifiedTypeNameHistroy>
