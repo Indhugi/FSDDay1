@@ -10,7 +10,7 @@ public class SetDemo {
 	}
 
 	private static void createBookset() {
-		 Set<Book> books=new HashSet<Book>();
+		 Set<Book> books=new HashSet<Book>();	//Hashset elements are not sorted
 		 for (int i = 0; i < 4; i++) {
 			Book book=new Book("Title"+i);
 			book.setPrice(100*i);

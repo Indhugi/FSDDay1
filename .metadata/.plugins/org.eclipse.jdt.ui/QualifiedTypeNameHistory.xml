@@ -12,4 +12,12 @@
 <fullyQualifiedTypeName name="CollegeStudent"/>
 <fullyQualifiedTypeName name="StudentAbstract"/>
 <fullyQualifiedTypeName name="HighSchoolStudent"/>
+<fullyQualifiedTypeName name="Book"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.ibm.Book"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.ibm.thread.AnotherWorker"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
