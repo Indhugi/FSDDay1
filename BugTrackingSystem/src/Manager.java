@@ -1,29 +1,22 @@
 
-public class Manager {
-	private String Name;
-	private int ID;
-	private String email;
-	//private APPROVAL approval;
-	private boolean approval;
-	
-	public boolean isApproval() {
+public class Manager extends Employee{
+	private int WorkItemID;
+	private APPROVAL approval;
+	public void SendMail() {
+		
+	}
+	public int getWorkItemID() {
+		return WorkItemID;
+	}
+	public void setWorkItemID(int workItemID) {
+		WorkItemID = workItemID;
+	}
+	public APPROVAL getApproval() {
 		return approval;
 	}
-
-	public void setApproval(boolean approval) {
+	public void setApproval(APPROVAL approval) {
 		this.approval = approval;
 	}
 
-	public Manager(String name) {
-		this.Name=name;
-	}
-	/*
-	 * public APPROVAL getApproval() { return approval; } public boolean
-	 * setApproval(APPROVAL approval) { this.approval = approval; return false; }
-	 */
-
+	
 }
-
-//enum APPROVAL{
-//	APPROVED,NOTAPPROVED
-//}

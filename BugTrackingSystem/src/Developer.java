@@ -1,34 +1,22 @@
 
-public class Developer {
-	private String Name;
-	private int ID;
-	private String email;
-
+public class Developer extends Employee {
+	private int BugID;
+	private STATUS status;
 	public Developer(String name) {
-		this.Name = name;
+		this.setName(name);
+	}
+	public void AssignBug(int BugID) {
+		this.BugID=BugID;
+		System.out.println("Assigned Bug "+this.BugID+" to "+this.getName()+" of Development Team");
+	}
+	public void BugReport() {
+	//TO DO:mail manager about the status report	
+	}
+	public STATUS getStatus() {
+		return status;
 	}
 
-	public String getName() {
-		return Name;
+	public void setStatus(STATUS status) {
+		this.status = status;
 	}
-
-	public void setName(String name) {
-		this.Name = name;
 	}
-
-	public int getID() {
-		return ID;
-	}
-
-	public void setID(int iD) {
-		ID = iD;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-}
