@@ -2,6 +2,10 @@
 public class Manager extends Employee{
 	private int WorkItemID;
 	private APPROVAL approval;
+	public Manager(String name, String email) {
+		this.setName(name);
+		this.setEmail(email);
+	}
 	public void SendMail() {
 		
 	}

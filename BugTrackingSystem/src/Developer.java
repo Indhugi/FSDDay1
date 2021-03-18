@@ -5,8 +5,14 @@ public class Developer extends Employee {
 	public Developer(String name) {
 		this.setName(name);
 	}
+	public Developer() {
+		// TODO Auto-generated constructor stub
+	}
 	public void AssignBug(int BugID) {
 		this.BugID=BugID;
+		if(BugID<=0) {
+			throw new IllegalArgumentException();
+		}
 		System.out.println("Assigned Bug "+this.BugID+" to "+this.getName()+" of Development Team");
 	}
 	public void BugReport() {

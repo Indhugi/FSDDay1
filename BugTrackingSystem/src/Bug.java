@@ -7,6 +7,9 @@ private STATUS status;
 
 public void Add(int id,PRIORITY priority,String module,STATUS status) {
 	this.id=id;
+	if (id<=0) {
+		throw new IllegalArgumentException();
+	}
 	this.priority=priority;
 	this.module=module;
 	this.status=status;

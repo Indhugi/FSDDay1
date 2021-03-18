@@ -9,6 +9,7 @@ public class ProjectApplication  {
 		Developer developer=new Developer("Harry");
 		Tester tester=new Tester("Sudhir");
 		QA qa=new QA("Jim");
+		Manager manager=new Manager("Kamal","kamal@gmail.com");
 		bug.Add(58123,PRIORITY.LOW,"OP",STATUS.OPEN);
 		if (bug.getStatus()==STATUS.OPEN) {
 		tester.OpenBug(bug.getID());
